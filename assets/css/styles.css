@@ -1,6 +1,26 @@
-h1{
-    color: blue;
+:root{
+    --primary-color: rgba(61, 12, 195, 0.89);
+    --secundary-color: rgba(160, 12, 12, 0.93);
+    --tertiary-color: rgba(3, 198, 0, 0.83);
+    --title-font: 3.8rem
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+.title {
     text-align: center;
+    font-size: var(--title-font);
+    color: var(--primary-color);
+    font-family: 
+}
 
-
+.title span {
+    font-size: 2rem;
+    color: var(--secundary-color)
 }
