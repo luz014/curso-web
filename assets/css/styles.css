@@ -1,7 +1,11 @@
 :root{
-    --primary-color: rgba(61, 12, 195, 0.89);
-    --secOndary-color: rgba(160, 12, 12, 0.93);
-    --tertiary-color: rgba(3, 198, 0, 0.83);
+    --primary-color: rgba(170, 139, 255, 0.89);
+    --secondary-color: rgba(255, 142, 142, 0.93);
+    --tertiary-color: rgba(171, 255, 170, 0.83);
+    --title-color: rgba(0, 0, 255, 0.83);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --name: rgba(255, 39, 39, 0.93);
 }
 
 html {
@@ -13,13 +17,36 @@ body {
     font-family: "Krub", sans-serif;
 }
 
+.cointainer {
+    width: 120rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 .title {
     text-align: center;
     font-size: 3.8rem;
-    color: var(--primary-color);
+    color: var(--title-color);
 }
 
 .title span {
     font-size: 2rem;
-    color: var(--secondary-color)
+    color: var(--name)
+}
+
+.nav-bg{
+    background-color: var(--secondary-color);
+}
+
+.initial-nav ul{    
+    display: flex;    
+    justify-content: space-between;
+    list-style: none;                   
+}
+
+.initial-nav a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
 }
