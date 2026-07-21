@@ -20,7 +20,31 @@ body {
 .initial-nav {
     width: 120rem;
     margin: 0 auto;
+
+}
+
+.nav-bg{
+    background-color: var(--secondary-color);
+}
+
+.initial-nav ul{    
+    display: flex;    
+    justify-content: space-between;
+    list-style: none;                 
+}
+
+.initial-nav a{
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
     padding: 1rem;
+}
+
+.initial-nav a:hover{
+    background-color: var(--tertiary-color);
+    color: var(--black);
 }
 
 .title {
@@ -34,19 +58,3 @@ body {
     color: var(--name)
 }
 
-.nav-bg{
-    background-color: var(--secondary-color);
-}
-
-.initial-nav ul{    
-    display: flex;    
-    justify-content: space-between;
-    list-style: none;                   
-}
-
-.initial-nav a{
-    text-decoration: none;
-    color: var(--white);
-    font-size: 2rem;
-    font-weight: 700;
-}
